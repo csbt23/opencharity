@@ -1,0 +1,28 @@
+Name = Open Charity Custom Theme
+description = Custom Theme.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/fonts.css
+stylesheets[all][] = css/style.css
+
+regions[logo] = Logo
+regions[navigation] = Navigation
+regions[banner] = Banner
+regions[banner_bottom] = Banner Bottom
+regions[content_top_left] = Content Top Left
+regions[content_top_mid] = Content Top Middle
+regions[content_top_right] = Content Top Right
+regions[content] = Content
+regions[main_content_second] = Main Content Second
+regions[content_bottom] = Content Bottom
+regions[footer_firstrow] = Footer First Row
+regions[footer_bottom] = Footer Bottom
+
+
+settings[shortcut_module_link] = 0
+
+version = "7.56"
+project = "drupal"
+datestamp = "1407346433"
