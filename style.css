@@ -1,0 +1,223 @@
+/* ---------- Overall Specifications ---------- */
+body { font-family: 'open_sansregular'; font-size: 14px; line-height: 1.5; color: #565659; background-color: #fff; word-wrap: break-word; margin: 0; padding: 0; border: 0; outline: 0;  }
+a, a:hover { color: inherit; text-decoration: none; }
+a:hover { cursor: pointer; }
+h1, h2, h3, h4, h5, h6 { font-weight: inherit; text-align: center; text-transform: uppercase; margin: 0; }
+h2 { font-family: 'museo_sans500'; font-size: 26px; color: #565659; margin-bottom: 25px; }
+h3 { font-family: 'museo_sans500'; font-size: 17px; color: #565659; }
+img { outline: 0; max-width: 100%; height: auto; }
+main { padding: 35px 0; background-color: #f1f2f5; }
+p.small { font-size: 80%; }
+.whitebgd { background-color: #fff; }
+
+/* ------------------ Table Styles ------------------ */
+table { border: 0; border-spacing: 0; font-size: 0.857em; margin: 10px 0; width: 100%; }
+table table { font-size: 1em; }
+#footer-wrapper table { font-size: 1em; }
+table tr th { background: #757575; background: rgba(0, 0, 0, 0.51); border-bottom-style: none; }
+table tr th, table tr th a, table tr th a:hover { color: #FFF; font-weight: bold; }
+table tbody tr th { vertical-align: top; }
+tr td, tr th { padding: 4px 9px; border: 1px solid #fff; text-align: left; /* LTR */ }
+#footer-wrapper tr td, #footer-wrapper tr th { border-color: #555; border-color: rgba(255, 255, 255, 0.18); }
+tr.odd { background: #e4e4e4; background: rgba(0, 0, 0, 0.105); }
+tr, tr.even { background: #efefef; background: rgba(0, 0, 0, 0.063); }
+table ul.links { margin: 0; padding: 0; font-size: 1em; }
+table ul.links li { padding: 0 1em 0 0; }
+
+/* ------------------ List Styles ------------------ */
+.block ol, .block ul { margin: 0; padding: 0 0 0.25em 1em; /* LTR */ }
+.contextual-links-wrapper { font-size: small !important; }
+ul.contextual-links { font-size: 0.923em; }
+.contextual-links-wrapper a { text-shadow: 0 0 0 !important; }
+.item-list .pager { font-size: 0.929em; }
+.region-content ul, .region-content ol { margin: 1em 0; padding: 0 0 0.25em 2.5em; /* LTR */ }
+.item-list ul li { margin: 0; padding: 0.2em 0.5em 0 0; /* LTR */ }
+ul.tips {   padding: 0 0 0 1.25em; /* LTR */}
+ul.menu li { list-style:none; display:inline; margin: 0; }
+ul.menu { padding-left: 0; }
+
+/* ------------------ Columns ---------------------- */
+.l12 { width: 100%; float: left; }
+.l10 { width: 83.3%; float: left; }
+.l9 { width: 75%; float: left; }
+.l6 { width: 50%; float: left; }
+.l5x { width: 20%; float: left; }
+.l4 { width: 33.3%; float: left; }
+.l3 { width: 25%; float: left; }
+.l2 { width: 16.7%; float: left; }
+.l0 { display: none; }
+.no-padding { padding: 0; }
+.slimpadding { padding: 0 8px; }
+.right { float: right; }
+
+
+/* --------------------- Rows ---------------------- */
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 67.5rem; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+  .row.collapse > .column,
+  .row.collapse > .columns {
+    padding-left: 0;
+    padding-right: 0; }
+  .row.collapse .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .row .row {
+    width: auto;
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: none; }
+    .row .row:before, .row .row:after {
+      content: " ";
+      display: table; }
+    .row .row:after {
+      clear: both; }
+    .row .row.collapse {
+      width: auto;
+      margin: 0;
+      max-width: none; }
+      .row .row.collapse:before, .row .row.collapse:after {
+        content: " ";
+        display: table; }
+      .row .row.collapse:after {
+        clear: both; }
+
+.wide.row { max-width: 77.5rem; }
+.fullrow { max-width: 100%; }
+
+/* ---------------------- Logo ------------------- */
+.region-logo { max-width: 150px; }
+
+/* ---------------- Navigation ------------------- */
+nav { padding: 15px; }
+.region-navigation ul.menu { text-align: right; padding-top: 15px; }
+.region-navigation a { color: #565659; text-transform: uppercase; padding: 8px 24px; transition: color 1s; transition: background-color 1s; }
+.region-navigation a:hover { color: #fff; background-color: #565659; }
+.region-navigation li { padding: 0; }
+.region-navigation li.last.leaf a { color: #61c0bd; border: 1px solid #61c0bd; }
+.region-navigation li.last.leaf a:hover { background-color: : #61c0bd; }
+
+/* ---------------- Banner ----------------------- */
+.banner-container { background-image: url(/sites/all/themes/opencharity/images/hero.jpg); padding: 70px; background-size: cover; }
+.banner-container h1, #banner p { color: #fff; text-align: center; }
+.banner-container h1 { font-family: 'museo_sans300'; font-size: 55px; }
+.banner-container p { font-size: 17px; line-height: 2; padding: 0 22%; }
+
+/* ---------------- Banner Bottom ---------------- */
+#banner-bottom { background-color: #f1f2f5; padding: 25px; }
+.view-events .views-field-field-date { font-family: 'museo_sans500'; font-size: 17px; color: #565659; }
+.view-events .views-field-field-date .views-label { color: #61c0bd; }
+.view-events .field-content { color: #5a6175; font-size: 14px; line-height: 2; }
+.view-events .views-field-view-node a { font-family: 'museo_sans500'; font-size: 14px; color: #fff; background-color: #61c0bd; text-transform: uppercase; padding: 12px 18px; border: 1px solid transparent; position: relative; top: -15px; transition: color 1s; transition: background-color 1s; }
+.view-events .views-field-view-node a:hover { color: #61c0bd; background-color: #fff; border: 1px solid #61c0bd; }
+
+/* ---------------- Content Top (Get Involved) --- */
+#content-top { padding: 35px 0; }
+#content_top_mid.front-block { padding: 0 50px; }
+#content_top_right.front-block { padding: 0 40px; }
+.front-block h3, .front-block p { text-align: center; }
+.front-block p:last-of-type { margin-top: 30px; }
+.front-block img { max-height: 100px; }
+.front-block a { font-family: 'museo_sans500'; font-size: 14px; color: #61c0bd; background-color: #fff; text-transform: uppercase; padding: 12px 56px; border: 1px solid #61c0bd; transition: color 1s; transition: background-color 1s; }
+.front-block a:hover { color: #fff; background-color: #61c0bd; }
+
+/* ---------------- Main ------------------------- */
+/* ---------------- Our Mission ------------------ */
+#block-block-7 { text-align: center; }
+.view-mission-goals { padding-top: 75px; }
+.view-mission-goals .views-row.l4 { width: 31.3%; margin: 0 1.5%; }
+.view-mission-goals .views-row.views-row-first.l4 { margin-left: 0; }
+.view-mission-goals .views-row.views-row-last.l4 { margin-right: 0; }
+.view-mission-goals .views-row { background-color: #fff; text-align: center; border-radius: 5px; }
+.view-mission-goals .views-field-title { color: #61c0bd; font-size: 17px; }
+.view-mission-goals img { max-width: 20%; margin-top: -12%; border: 10px solid #fff; border-radius: 60px; }
+.view-mission-goals .views-field-body { padding: 0 5% 20px; }
+/* ---------------- Our Members ------------------ */
+#main_content_second { margin-top: 42px; padding-top: 42px; border-top: 1px solid #d9dadd; }
+.view-members .views-field-field-logo { text-align: center; }
+
+/* ---------------- Blog ------------------------- */
+.bottomcontent { background: linear-gradient(to bottom, #f8f8fa 0%, #f8f8fa 40%, #f8f8fa 40%, #aeaeb0 40%, #aeaeb0 100%); }
+#content_bottom { padding: 30px 5%; float: left; }
+.view-id-blog .field-content a { color: #61c0bd; font-weight: bold; border-bottom: 1px solid #f1f2f5; padding-bottom: 7px; display: block; width: 100%; }
+.view-id-blog .views-field { padding: 0 15px; }
+.view-id-blog .views-field-body .field-content { border-bottom: 1px solid #f1f2f5; padding-bottom: 5px; margin-bottom: 10px; }
+
+ /* ---------------- Footer ----------------------- */
+footer { color: #969eb6; background-color: #454850; text-align: center; }
+footer a { color: #5fc0c3; transition: color 1s; transition: margin 1s; }
+footer a:hover { color: #fff; margin: 0 5px; }
+#footer_firstrow { padding: 15px 0 10px; border-bottom: 1px solid #575b64; }
+footer .region-footer-firstrow img { max-height: 18px; margin: 0 10px; }
+
+@media  screen and (max-width: 1024px) {
+  body { font-size: 13px; }
+  .front-block a { padding: 12px 32px; }
+}
+
+/* ------------ 800px wide screens --------------- */
+@media screen and (max-width: 800px) {
+	.m12 { width: 100%; }
+	.m9 { width: 75%; }
+	.m6 { width: 50%; }
+	.m4 { width: 33.3%; }
+	.m3 { width: 25%; }
+	.m0 { display: none; }
+  body { font-size: 12px; }
+  main { padding: 35px 10px; }
+  .front-block, #content_top_mid.front-block, #content_top_right.front-block { padding: 0 20px; }
+  .front-block a { padding: 12px 14px; font-size: 12px; }
+  .view-events .views-field-view-node a { padding: 10px 14px; } 
+}
+
+/* ------------ 640px wide screens --------------- */
+@media screen and (max-width: 640px) {
+	.s12 { width: 100%; }
+	.s9 { width: 75%; }
+	.s6 { width: 50%; }
+	.s4 { width: 33.3%; }
+	.s3 { width: 25%; }
+	.s0 { display: none; }
+  body { font-size: 11px; }
+  .region-logo { max-width: inherit; text-align: center; }
+  .region-navigation ul.menu { text-align: center; padding-top: 0; }
+  .banner-container { padding: 36px; }
+  .banner-container h1 { font-size: 36px; }
+  .banner-container p { font-size: 15px; padding: 0px 15%; }
+  #banner-bottom { padding: 15px; }
+  .view-events .views-field.views-field-view-node { text-align: right; }
+  .view-events .views-field.views-field-field-location { margin-bottom: 10px; }
+  .view-events .views-field-view-node a { position: inherit; top: 0; }
+  #content_top_left.front-block { border-bottom: 1px solid #f1f2f5; padding: 10px 0; }
+  #content_top_mid.front-block { border-bottom: 1px solid #f1f2f5; padding: 10px 0; }
+  .view-blog .views-row { margin-bottom: 20px; }
+  .view-blog .views-field-body p { margin: 0.3em 0 0; }
+  .view-blog .views-field-body .field-content { margin-bottom: 5px; }
+
+@media screen and (max-width: 480px) {
+  .region-navigation a { display: block; padding: 5px 0; }
+  .view-mission-goals img { max-width: 50%; margin-top: -30%; border: 7px solid #fff; }
+
+/* ------------ 320px wide screens --------------- */
+@media screen and (max-width: 340px) {
+	.xs12 { width: 100%; }
+	.xs9 { width: 75%; }
+	.x6 { width: 50%; }
+	.xs4 { width: 33.3%; }
+	.xs3 { width: 25%; }
+	.xs0 { display: none; }
+  body { font-size: 10px; }
+  .view-id-blog .views-row { margin-top: 10px; }
+  .view-id-blog
+}
